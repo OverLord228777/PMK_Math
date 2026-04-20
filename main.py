@@ -3,6 +3,8 @@
 """
 
 from numerical_methods.lagrange import Point, Lagrange
+from probability_theory.combinatorics import permutation
+from high_math.limits import lim
 
 l0: Point = Point(0, 3)
 l1: Point = Point(5, 1)
